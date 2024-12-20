@@ -40,36 +40,36 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 
 - **Research and Analysis**: Proficient in quantitative and qualitative methods for public administration research.  
 - **Policy Development**: Skilled in crafting actionable policies for public health and nonprofit sectors.  
-- **Data Analysis Tools**: SPSS, R, Excel  
-- **Communication**: Strong public speaking and academic writing skills.
+- **Data Analysis Tools**: Python, R, Stata, R, Excel, and Tableau
+- **Communication**: Strong public speaking and academic writing skills (LaTeX).
 
 ---
 
 ## 📄 Selected Publications and Presentations
 
-- **[Title of Paper or Presentation](#)** - *Journal or Conference Name* (Year)  
+- **[What Makes a Difference: Factors Influencing Nonprofit Hospitals’ Provisions of Community Benefits.](#)** - *Southeastern Conference for Public Administration (SECoPA).* (2024)  
   🔍 Brief description of the research and its significance.
 
-- **[Another Publication Title](#)** - *Journal or Conference Name* (Year)  
+- **[Building Inclusivity: Examine the Drivers of Inclusive Housing Policies for Immigrants in Local Government.](#)** - *Annual Conference of the American Society for Public Administration (ASPA).* (2024)  
   ✨ Highlight of contributions and outcomes.
 
 ---
 
-## 💼 Professional Experience
+## 🏫 Education/Specialized Training
 
-- **[Organization Name](#)**  
-  *Position Title*  
-  🏆 Description of role, key achievements, and impact.
+- **[North Carolina State University](#)**  
+  *Ph.D. in Public Administration (2025)*  
+  🏆 Activities/Awards: The Graduate Peer Mentoring Collaborative (GPMC), NC State University (2024-2025), Graduate School Summer Fellowships (2023-2024).
 
-- **[Another Organization](#)**  
-  *Position Title*  
+- **[University of Michigan](#)**  
+  *ICPSR Summer Program in Quantitative Methods Certification*  
   🚀 Summary of responsibilities and accomplishments.
 
 ---
 
 ## 📬 Contact Me
 
-- **LinkedIn**: [Your Profile](#)  
-- **Email**: yourname@example.com  
+- **LinkedIn**: [https://www.linkedin.com/in/yinmanzhong/](#)  
+- **Email**: yinmanzhong@gmail.com  
 
 ---
