@@ -9,12 +9,19 @@ def fetch_publications(scholar_id):
         title = pub_details.get('bib', {}).get('title', 'Unknown Title')
         year = pub_details.get('bib', {}).get('pub_year', 'Unknown Year')
         authors = pub_details.get('bib', {}).get('author', 'Unknown Authors')
-        publications.append(f"{title} ({year}) - {authors}")
-    return publications
+        publications.append(f"- **{title}** ({year}) - {authors}")
+    return "\n".join(publications)
+
+def update_readme(publications_text):
+    with open("README.md", "r") as file:
+        content = file.read()
+    start_marker = "<!-- START: Google Scholar Publications -->"
+    end_marker = "<!-- END: Google Scholar Publications -->"
+    updated_content = content.split(start_marker)[0] + start_marker + "\n" + publications_text + "\n" + end_marker + content.split(end_marker)[1]
+    with open("README.md", "w") as file:
+        file.write(updated_content)
 
 if __name__ == "__main__":
-    # Replace with your Google Scholar ID
     scholar_id = "rR9MUpkAAAAJ"
-    publications = fetch_publications(scholar_id)
-    with open("README.md", "w") as f:
-        f.write("\n".join(publications))
+    publications_text = fetch_publications(scholar_id)
+    update_readme(publications_text
