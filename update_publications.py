@@ -13,15 +13,25 @@ def fetch_publications(scholar_id):
     return "\n".join(publications)
 
 def update_readme(publications_text):
-    with open("README.md", "r") as file:
+    with open("README.md", "r", encoding="utf-8") as file:
         content = file.read()
     start_marker = "<!-- START: Google Scholar Publications -->"
     end_marker = "<!-- END: Google Scholar Publications -->"
-    updated_content = content.split(start_marker)[0] + start_marker + "\n" + publications_text + "\n" + end_marker + content.split(end_marker)[1]
-    with open("README.md", "w") as file:
+    updated_content = (
+        content.split(start_marker)[0]
+        + start_marker
+        + "\n"
+        + publications_text
+        + "\n"
+        + end_marker
+        + content.split(end_marker)[1]
+    )
+    with open("README.md", "w", encoding="utf-8") as file:
         file.write(updated_content)
+
 
 if __name__ == "__main__":
     scholar_id = "rR9MUpkAAAAJ"
     publications_text = fetch_publications(scholar_id)
+    print(publications_text)
     update_readme(publications_text)
