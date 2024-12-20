@@ -31,6 +31,6 @@ def update_readme(publications, filepath="README.md"):
 
 if __name__ == "__main__":
     # Replace with your Google Scholar ID
-    scholar_id = "YOUR_SCHOLAR_ID"
+    scholar_id = "rR9MUpkAAAAJ"
     publications = fetch_publications(scholar_id)
     update_readme(publications)
