@@ -19,7 +19,9 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 
 ## 📚 Recent Publications
 
-{% include_relative README.md %}
+<!-- START: Google Scholar Publications -->
+The latest publications will appear here automatically.
+<!-- END: Google Scholar Publications -->
 
 ---
 
