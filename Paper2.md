@@ -1,4 +1,4 @@
-This is about paper 1
+This is about paper 2
 ```python
 plt.figure(figsize=(10, 6))
 sns.scatterplot(x="document_word_count", y="combined_tfidf", hue="MedicaidState", data=pd.concat([expanded_states_df, non_expanded_states_df]), palette="muted", alpha=0.6, edgecolor='none')
