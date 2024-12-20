@@ -5,7 +5,14 @@ def format_publication_block(publication):
     title = publication.get('bib', {}).get('title', 'Unknown Title')
     year = publication.get('bib', {}).get('pub_year', 'Unknown Year')
     authors = publication.get('bib', {}).get('author', 'Unknown Authors')
-    url = publication.get('url_scholar', '#')  # Assuming the URL for the publication is available
+
+    # Get URL from the scholarly search
+    url = publication.get('url_scholar', None)
+    if not url:
+        # If no URL is available, use the DOI or construct a URL from the title or other fields
+        url = f"https://scholar.google.com/scholar?q={title.replace(' ', '+')}"
+
+    print(f"Publication URL: {url}")
 
     # Format as a block with HTML and Markdown link
     publication_block = f"""
@@ -45,7 +52,7 @@ def update_readme(publications_text):
 
 
 if __name__ == "__main__":
-    scholar_id = "rR9MUpkAAAAJ"  # Replace with your actual Google Scholar ID
+    scholar_id = "rR9MUpkAAAAJ"
     publications_text = fetch_publications(scholar_id)
     print(publications_text)
     update_readme(publications_text)
