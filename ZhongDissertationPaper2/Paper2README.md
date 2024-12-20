@@ -13,7 +13,7 @@ plt.show()
 <table border="0"  style='border:none;'  bordercolor="#ffffff"  width=100%  >
 <tr style='border:none;'  >   
    <td valign="center" style='border:none;'  > 
-        <img  height="300" width = "500" align="center" src="https://github.com/YinmanZhong/YinmanZhong.github.io/blob/main/ZhongDissertationPaper2/Result_Figure_1.png">
+        <img  height="500" width = "500" align="center" src="https://github.com/YinmanZhong/YinmanZhong.github.io/blob/main/ZhongDissertationPaper2/Result_Figure_1.png">
    </td>
  </tr>
  </table>
