@@ -17,6 +17,13 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 
 ---
 
+## 📚 Recent Publications
+
+<!-- START_PUBLICATIONS -->
+<!-- END_PUBLICATIONS -->
+
+---
+
 ## 🛠️ Skills and Expertise
 
 - **Research and Analysis**: Proficient in quantitative and qualitative methods for public administration research.  
