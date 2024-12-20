@@ -22,19 +22,19 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 <!-- START: Google Scholar Publications -->
 
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?</a>
+  <a href="https://scholar.google.com/scholar?q=Can+Common+Pool+Resource+Theory+Catalyze+Stakeholder-Driven+Solutions+to+the+Freshwater+Salinization+Syndrome?" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?</a>
   <p style="font-size: 14px; color: #555;">Stanley B Grant and Megan A Rippy and Thomas A Birkland and Todd Schenk and Kristin Rowles and Shalini Misra and Payam Aminpour and Sujay Kaushal and Peter Vikesland and Emily Berglund and Jesus D Gomez-Velez and Erin R Hotchkiss and Gabriel Perez and Harry X Zhang and Kingston Armstrong and Shantanu V Bhide and Lauren Krauss and Carly Maas and Kent Mendoza and Caitlin Shipman and Yadong Zhang and Yinman Zhong (2022)</p>
 </div>
 
 
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach</a>
+  <a href="https://scholar.google.com/scholar?q=Simulating+the+Emergence+of+Institutions+that+Reverse+Freshwater+Salinization:+An+Agent-based+Modeling+Approach" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach</a>
   <p style="font-size: 14px; color: #555;">Kingston Armstrong and Yinman Zhong and Shantanu V Bhide and Stanley B Grant and Thomas Birkland and Emily Zechman Berglund (2024)</p>
 </div>
 
 
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome</a>
+  <a href="https://scholar.google.com/scholar?q=An+Agent-based+Modeling+Approach+to+Simulate+the+Emergence+of+Institutions+that+Reverse+the+Freshwater+Salinization+Syndrome" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome</a>
   <p style="font-size: 14px; color: #555;">Kingston Armstrong and Yinman Zhong and Shantanu Vidyadhar Bhide and Stanley Baugh Grant and Thomas A Birkland and Emily Zechman Berglund (2022)</p>
 </div>
 
