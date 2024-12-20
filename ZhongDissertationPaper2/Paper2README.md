@@ -10,3 +10,10 @@ plt.xticks(rotation=45, fontsize=16)  # Bold years on the x-axis
 plt.yticks(fontsize=16)  # Bold numbers on the y-axis
 plt.show()
 ```
+<table border="0"  style='border:none;'  bordercolor="#ffffff"  width=100%  >
+<tr style='border:none;'  >   
+   <td valign="center" style='border:none;'  > 
+        <img  height="300" align="left" src="ZhongDissertationPaper2/Result_Figure_1.png">
+   </td>
+ </tr>
+ </table>
