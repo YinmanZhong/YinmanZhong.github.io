@@ -2,7 +2,7 @@ name: Update Publications
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Every Sunday at midnight
+    - cron: '* * * * *' # Every minute
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
