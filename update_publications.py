@@ -16,5 +16,5 @@ if __name__ == "__main__":
     # Replace with your Google Scholar ID
     scholar_id = "rR9MUpkAAAAJ"
     publications = fetch_publications(scholar_id)
-    with open("publications.md", "w") as f:
+    with open("README.md", "w") as f:
         f.write("\n".join(publications))
