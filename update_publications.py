@@ -24,4 +24,4 @@ def update_readme(publications_text):
 if __name__ == "__main__":
     scholar_id = "rR9MUpkAAAAJ"
     publications_text = fetch_publications(scholar_id)
-    update_readme(publications_text
+    update_readme(publications_text)
