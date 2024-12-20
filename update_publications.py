@@ -9,17 +9,13 @@ def format_publication_block(publication):
     # Get URL from the scholarly search
     url = publication.get('url_scholar', None)
     if not url:
-        # If no URL is available, use the DOI or construct a URL from the title or other fields
+        # If no URL is available, use the Google Scholar search URL for the title
         url = f"https://scholar.google.com/scholar?q={title.replace(' ', '+')}"
 
-    print(f"Publication URL: {url}")
-
-    # Format as a block with HTML and Markdown link
+    # Format as a clickable card with image and Markdown link
     publication_block = f"""
-<div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  <a href="{url}" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">{title}</a>
-  <p style="font-size: 14px; color: #555;">{authors} ({year})</p>
-</div>
+[![{title}](https://via.placeholder.com/250x140.png?text={title.replace(' ', '+')}&bg_color=5a5a5a&text_color=ffffff&font_size=16)]({url})
+<p style="font-size: 14px; color: #555; text-align: center;">{authors} ({year})</p>
 """
     return publication_block
 
@@ -52,7 +48,7 @@ def update_readme(publications_text):
 
 
 if __name__ == "__main__":
-    scholar_id = "rR9MUpkAAAAJ"
+    scholar_id = "rR9MUpkAAAAJ"  # Replace with your actual Google Scholar ID
     publications_text = fetch_publications(scholar_id)
     print(publications_text)
     update_readme(publications_text)
