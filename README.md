@@ -20,7 +20,9 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 ## 📚 Recent Publications
 
 <!-- START: Google Scholar Publications -->
-The latest publications will appear here automatically.
+- **Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?** (2022) - Stanley B Grant and Megan A Rippy and Thomas A Birkland and Todd Schenk and Kristin Rowles and Shalini Misra and Payam Aminpour and Sujay Kaushal and Peter Vikesland and Emily Berglund and Jesus D Gomez-Velez and Erin R Hotchkiss and Gabriel Perez and Harry X Zhang and Kingston Armstrong and Shantanu V Bhide and Lauren Krauss and Carly Maas and Kent Mendoza and Caitlin Shipman and Yadong Zhang and Yinman Zhong
+- **Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach** (2024) - Kingston Armstrong and Yinman Zhong and Shantanu V Bhide and Stanley B Grant and Thomas Birkland and Emily Zechman Berglund
+- **An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome** (2022) - Kingston Armstrong and Yinman Zhong and Shantanu Vidyadhar Bhide and Stanley Baugh Grant and Thomas A Birkland and Emily Zechman Berglund
 <!-- END: Google Scholar Publications -->
 
 ---
