@@ -1,10 +1,25 @@
+import re
 from scholarly import scholarly
+
+def extract_journal_from_citation(citation):
+    """
+    Extracts the journal name from the citation string.
+    Assumes the journal name is the first part of the citation string before the first number or volume indicator.
+    """
+    if not citation:
+        return "Unknown Journal"
+    
+    # Match everything before the first number (assumes journal names do not contain numbers)
+    match = re.match(r"^[^\d]+", citation)
+    if match:
+        return match.group(0).strip()
+    return "Unknown Journal"
 
 def format_publication_block(publication):
     # Extract details
     title = publication.get('bib', {}).get('title', 'Unknown Title')
-    year = publication.get('bib', {}).get('pub_year', 'Unknown Year')
-    authors = publication.get('bib', {}).get('author', 'Unknown Authors')
+    citation = publication.get('bib', {}).get('citation', None)
+    journal = extract_journal_from_citation(citation)
 
     # Get URL from the scholarly search
     url = publication.get('url_scholar', None)
@@ -12,10 +27,10 @@ def format_publication_block(publication):
         # If no URL is available, use the Google Scholar search URL for the title
         url = f"https://scholar.google.com/scholar?q={title.replace(' ', '+')}"
 
-    # Format as a clickable card with image and Markdown link
+    # Format as a clickable card
     publication_block = f"""
 [![{title}](https://via.placeholder.com/250x140.png?text={title.replace(' ', '+')}&bg_color=5a5a5a&text_color=ffffff&font_size=16)]({url})
-<p style="font-size: 14px; color: #555; text-align: center;">{authors} ({year})</p>
+<p style="font-size: 14px; color: #555; text-align: center;">{journal}</p>
 """
     return publication_block
 
