@@ -8,11 +8,16 @@ def format_publication_block(publication, journal_name):
     """Format a publication block with the title and journal icon."""
     title = publication.get('bib', {}).get('title', 'Unknown Title')
     # Construct the local path for the journal icon
-    journal_icon_path = os.path.join(JOURNAL_ICON_FOLDER, f"{journal_name.replace(' ', '_')}.png")
-    
-    # If the icon doesn't exist, use a default placeholder
-    if not os.path.exists(journal_icon_path):
+    journal_icon_path_png = os.path.join(JOURNAL_ICON_FOLDER, f"{journal_name.replace(' ', '_')}.png")
+    journal_icon_path_jpg = os.path.join(JOURNAL_ICON_FOLDER, f"{journal_name.replace(' ', '_')}.jpg")
+
+    if os.path.exists(journal_icon_path_png):
+        journal_icon_path = journal_icon_path_png
+    elif os.path.exists(journal_icon_path_jpg):
+        journal_icon_path = journal_icon_path_jpg
+    else:
         journal_icon_path = os.path.join(JOURNAL_ICON_FOLDER, "default.png")
+
 
     # Format block with local image path
     publication_block = f"""
