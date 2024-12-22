@@ -21,21 +21,27 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 
 <!-- START: Google Scholar Publications -->
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="https://pubs.acs.org/cms/10.1021/esthag.2024.58.issue-50/asset/193d3a45-b919-d3a4-6b91-3d3a456b9193/esthag.2024.58.issue-50.largecover.jpg" alt="Environmental Science & Technology" style="width: 30px; height: 30px; margin-right: 10px; border-radius: 50%;"/>
-  <a href="https://scholar.google.com/scholar?q=Can+Common+Pool+Resource+Theory+Catalyze+Stakeholder-Driven+Solutions+to+the+Freshwater+Salinization+Syndrome?" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?</a>
+<div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
+  <img src="journal_icons/Environmental.jpg" alt="Environmental" style="height: 50px; margin-right: 15px;">
+  <div>
+    <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?</a>
+  </div>
 </div>
 
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="https://example.com/icons/default.png" alt="Journal of Hydrology X," style="width: 30px; height: 30px; margin-right: 10px; border-radius: 50%;"/>
-  <a href="https://scholar.google.com/scholar?q=Simulating+the+Emergence+of+Institutions+that+Reverse+Freshwater+Salinization:+An+Agent-based+Modeling+Approach" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach</a>
+<div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
+  <img src="journal_icons/Journal.jpg" alt="Journal" style="height: 50px; margin-right: 15px;">
+  <div>
+    <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach</a>
+  </div>
 </div>
 
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="https://example.com/icons/default.png" alt="AGU Fall Meeting Abstracts" style="width: 30px; height: 30px; margin-right: 10px; border-radius: 50%;"/>
-  <a href="https://scholar.google.com/scholar?q=An+Agent-based+Modeling+Approach+to+Simulate+the+Emergence+of+Institutions+that+Reverse+the+Freshwater+Salinization+Syndrome" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome</a>
+<div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
+  <img src="journal_icons/AGU.png" alt="AGU" style="height: 50px; margin-right: 15px;">
+  <div>
+    <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome</a>
+  </div>
 </div>
 
 <!-- END: Google Scholar Publications -->
