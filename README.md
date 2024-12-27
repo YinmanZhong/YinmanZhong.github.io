@@ -1,9 +1,3 @@
----
-title: "Yinman Zhong GitHub Page"
-description: "Describes the research, publications, and projects completed by Yinman Zhong."
-keywords: "GitHub, research, public administration, public health, Yinman, Zhong, Yinman Zhong"
----
-
 # 🌟 About Me
 
 Hi there! My name is Yinman Zhong, and I am a Ph.D. candidate in Public Administration at North Carolina State University, expected to graduate in 2025. My work focuses on addressing pressing challenges in public health and policy, with a particular interest in improving health equity through effective nonprofit management and policy interventions.
