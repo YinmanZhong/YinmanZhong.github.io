@@ -22,29 +22,28 @@ Hi there! I am a Ph.D. candidate in Public Administration at North Carolina Stat
 <!-- START: Google Scholar Publications -->
 
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
-  <img src="journal_icons/Environmental.jpg" alt="Environmental" style="height: 50px; margin-right: 15px;">
+  <img src="journal_icons/Environmental.jpg" alt="Environmental" style="height: 75px; margin-right: 15px;">
   <div>
     <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Can Common Pool Resource Theory Catalyze Stakeholder-Driven Solutions to the Freshwater Salinization Syndrome?</a>
   </div>
 </div>
 
-
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
-  <img src="journal_icons/Journal.jpg" alt="Journal" style="height: 50px; margin-right: 15px;">
+  <img src="journal_icons/Journal.jpg" alt="Journal" style="height: 75px; margin-right: 15px;">
   <div>
     <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">Simulating the Emergence of Institutions that Reverse Freshwater Salinization: An Agent-based Modeling Approach</a>
   </div>
 </div>
 
-
 <div style="background-color: #f0f0f0; border-radius: 8px; padding: 20px; margin-bottom: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
-  <img src="journal_icons/AGU.png" alt="AGU" style="height: 50px; margin-right: 15px;">
+  <img src="journal_icons/AGU.png" alt="AGU" style="height: 75px; margin-right: 15px;">
   <div>
     <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px;">An Agent-based Modeling Approach to Simulate the Emergence of Institutions that Reverse the Freshwater Salinization Syndrome</a>
   </div>
 </div>
 
 <!-- END: Google Scholar Publications -->
+
 
 ---
 
