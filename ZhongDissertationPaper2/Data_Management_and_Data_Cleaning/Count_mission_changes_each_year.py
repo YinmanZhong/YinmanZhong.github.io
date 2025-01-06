@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = "/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/Final with Mission Change (2014-2021)/4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords_balanced_MissionChanged.xlsx"  # Replace with your file path
+file_path = ".../4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords_balanced_MissionChanged.xlsx"
 df = pd.read_excel(file_path)
 
 # Filter rows where 'NoExcelMissChange(String)' is "false"
@@ -25,7 +25,7 @@ table['Total'] = table.sum(axis=1)
 # Sort by State for better readability
 table = table.sort_index()
 
-# Reset column order to match your LaTeX format
+# Reset column order to match the LaTeX format
 columns_order = all_years + ['Total']
 table = table[columns_order]
 
