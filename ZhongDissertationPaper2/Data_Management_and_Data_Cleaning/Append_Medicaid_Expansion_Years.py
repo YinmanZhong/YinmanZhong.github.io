@@ -1,7 +1,7 @@
 import pandas as pd
 
-# Load your dataframe (replace with your actual DataFrame name)
-df = pd.read_excel('/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/2024_06_21_All_Missions_E20+E21+E22_AddStateInfo.xlsx')
+# Load the dataframe 
+df = pd.read_excel('.../2024_06_21_All_Missions_E20+E21+E22_AddStateInfo.xlsx')
 
 # Define a dictionary mapping each state abbreviation to its Medicaid expansion year
 medicaid_expansion_years = {
@@ -58,7 +58,7 @@ medicaid_expansion_years = {
     'WY': 'N/A'
 }
 
-# Map the Medicaid expansion years to a new column in your DataFrame based on the state_code column
+# Map the Medicaid expansion years to a new column in the DataFrame based on the state_code column
 df['medicaid_expansion_year'] = df['state_code'].map(medicaid_expansion_years)
 
 # Create the treatment variable
@@ -79,8 +79,7 @@ df['time_since_expansion'] = df.apply(
 )
 
 
-# Calculate the number of years since Medicaid expansion using 2021 as the reference year, "N/A" for non-expansion
-# states
+# Calculate the number of years since Medicaid expansion using 2021 as the reference year, "N/A" for non-expansion states
 df['yearstreated'] = df.apply(
     lambda row: 2021 - int(row['medicaid_expansion_year'])
     if row['medicaid_expansion_year'] != "N/A" and pd.notna(row['medicaid_expansion_year']) else "N/A",
@@ -89,9 +88,7 @@ df['yearstreated'] = df.apply(
 
 
 # Save the updated DataFrame to a new Excel file
-output_file_path = ('/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted '
-                    'from Giving Tuesday ('
-                    'E20+E22)/Missions_E20+E21+E22/2024_06_21_All_Missions_E20+E21+E22_AddStateInfo_Medicaid.xlsx')
+output_file_path = ('.../Missions_E20+E21+E22/2024_06_21_All_Missions_E20+E21+E22_AddStateInfo_Medicaid.xlsx')
 df.to_excel(output_file_path, index=False)
 
 print("Updated file saved successfully at:", output_file_path)
