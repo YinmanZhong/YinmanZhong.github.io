@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the Excel file
-file_path = "/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/Final with Mission Change (2014-2021)/4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords.xlsx"  # Replace with the actual path to your Excel file
+file_path = ".../4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords.xlsx"  # Replace with the actual path to your Excel file
 df = pd.read_excel(file_path)
 
 # Check for duplicates based on 'FILEREIN' and 'TAXYEAR'
