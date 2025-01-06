@@ -1,7 +1,7 @@
 import pandas as pd
 
 # File paths
-input_file = "/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/Final with Mission Change (2014-2021)/4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords_balanced.xlsx"  # Replace with your actual file path
+input_file = ".../4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_RemoveStopWords_balanced.xlsx" 
 output_file = input_file.replace(".xlsx", "_MissionChanged.xlsx")
 
 # Load the Excel file
