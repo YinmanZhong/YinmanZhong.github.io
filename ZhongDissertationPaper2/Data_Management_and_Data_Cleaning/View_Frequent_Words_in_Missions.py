@@ -1,9 +1,8 @@
 import pandas as pd
 from collections import Counter
 
-# Load your dataset
-# Replace 'your_file.csv' with the path to your dataset
-df = pd.read_excel('/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/7_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_balanced_Equity_withTF-IDF.xlsx')
+# Load the dataset
+df = pd.read_excel('.../7_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_balanced_Equity_withTF-IDF.xlsx')
 
 # Ensure the relevant columns exist
 assert 'filtered_mission' in df.columns, "Column 'filtered_mission' not found"
