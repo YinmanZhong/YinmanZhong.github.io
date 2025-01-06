@@ -3,7 +3,7 @@ import re
 from nltk.corpus import stopwords
 import nltk
 
-# Download stopwords if not already downloaded
+# Download stopwords
 nltk.download('stopwords')
 
 # Define stop words
@@ -21,7 +21,7 @@ def clean_text(text):
     return text  # Return the original text if it's not a string
 
 # Read the Excel file
-file_path = "/Users/yinmanzhong/Desktop/Dissertation/1. My Dissertation Data/Mission Statements Extracted from Giving Tuesday (E20+E22)/Missions_E20+E21+E22/Final Version Data in Paper!!!/4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_(2014-2021)_balanced.xlsx"  # Replace with your actual file path
+file_path = ".../4_Missions_E20+E21+E22_AddStateInfo_Medicaid_NoShortMission_(2014-2021)_balanced.xlsx" 
 df = pd.read_excel(file_path)
 
 # Apply the clean_text function to the MISSION column
